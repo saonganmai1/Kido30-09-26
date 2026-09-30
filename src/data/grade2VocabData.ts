@@ -1,0 +1,67 @@
+import { GradeVocabItem } from './grade1VocabData';
+
+export const grade2VocabList: GradeVocabItem[] = [
+  // 1 - 16
+  { id: 1, word: 'pasta', label: 'Pasta', phonetic: '/ˈpæstə/', meaningVi: 'mì ống', icon: '🍝', colorTheme: 'orange' },
+  { id: 2, word: 'pizza', label: 'Pizza', phonetic: '/ˈpiːtsə/', meaningVi: 'bánh pizza', icon: '🍕', colorTheme: 'orange' },
+  { id: 3, word: 'popcorn', label: 'Popcorn', phonetic: '/ˈpɒpkɔːn/', meaningVi: 'bỏng ngô', icon: '🍿', colorTheme: 'orange' },
+  { id: 4, word: 'bike', label: 'Bike', phonetic: '/baɪk/', meaningVi: 'xe đạp', icon: '🚲' },
+  { id: 5, word: 'kite', label: 'Kite', phonetic: '/kaɪt/', meaningVi: 'cái diều', icon: '🪁' },
+  { id: 6, word: 'kitten', label: 'Kitten', phonetic: '/ˈkɪtn/', meaningVi: 'con mèo con', icon: '🐱' },
+  { id: 7, word: 'sail', label: 'Sail', phonetic: '/seɪl/', meaningVi: 'cánh buồm', icon: '⛵' },
+  { id: 8, word: 'sand', label: 'Sand', phonetic: '/sænd/', meaningVi: 'cát', icon: '🏖️' },
+  { id: 9, word: 'sea', label: 'Sea', phonetic: '/siː/', meaningVi: 'biển', icon: '🌊' },
+  { id: 10, word: 'rainbow', label: 'Rainbow', phonetic: '/ˈreɪnbəʊ/', meaningVi: 'cầu vồng', icon: '🌈' },
+  { id: 11, word: 'river', label: 'River', phonetic: '/ˈrɪvə/', meaningVi: 'dòng sông', icon: '🌊' },
+  { id: 12, word: 'road', label: 'Road', phonetic: '/rəʊd/', meaningVi: 'con đường', icon: '🛣️' },
+  { id: 13, word: 'question', label: 'Question', phonetic: '/ˈkwestʃən/', meaningVi: 'câu hỏi', icon: '❓' },
+  { id: 14, word: 'quiz', label: 'Quiz', phonetic: '/kwɪz/', meaningVi: 'câu đố', icon: '📝' },
+  { id: 15, word: 'square', label: 'Square', phonetic: '/skweə/', meaningVi: 'hình vuông', icon: '⏹️' },
+  { id: 16, word: 'box', label: 'Box', phonetic: '/bɒks/', meaningVi: 'cái hộp', icon: '📦' },
+
+  // 17 - 32
+  { id: 17, word: 'fox', label: 'Fox', phonetic: '/fɒks/', meaningVi: 'con cáo', icon: '🦊' },
+  { id: 18, word: 'ox', label: 'Ox', phonetic: '/ɒks/', meaningVi: 'con bò', icon: '🐂' },
+  { id: 19, word: 'jam', label: 'Jam', phonetic: '/dʒæm/', meaningVi: 'mứt', icon: '🫙' },
+  { id: 20, word: 'jelly', label: 'Jelly', phonetic: '/ˈdʒeli/', meaningVi: 'thạch', icon: '🍮' },
+  { id: 21, word: 'juice', label: 'Juice', phonetic: '/dʒuːs/', meaningVi: 'nước ép', icon: '🧃' },
+  { id: 22, word: 'van', label: 'Van', phonetic: '/væn/', meaningVi: 'xe tải', icon: '🚐' },
+  { id: 23, word: 'village', label: 'Village', phonetic: '/ˈvɪlɪdʒ/', meaningVi: 'làng', icon: '🏡' },
+  { id: 24, word: 'volleyball', label: 'Volleyball', phonetic: '/ˈvɒlibɔːl/', meaningVi: 'bóng chuyền', icon: '🏐' },
+  { id: 25, word: 'yam', label: 'Yam', phonetic: '/jæm/', meaningVi: 'củ khoai sọ', icon: '🍠' },
+  { id: 26, word: 'yo-yo', label: 'Yo-Yo', phonetic: '/ˈjəʊ jəʊ/', meaningVi: 'cái yo-yo', icon: '🪀' },
+  { id: 27, word: 'yogurt', label: 'Yogurt', phonetic: '/ˈjɒɡət/', meaningVi: 'sữa chua', icon: '🥛' },
+  { id: 28, word: 'zebra', label: 'Zebra', phonetic: '/ˈzebrə/', meaningVi: 'ngựa vằn', icon: '🦓' },
+  { id: 29, word: 'zebu', label: 'Zebu', phonetic: '/ˈziːbuː/', meaningVi: 'bò u', icon: '🐂' },
+  { id: 30, word: 'zoo', label: 'Zoo', phonetic: '/zuː/', meaningVi: 'vườn thú', icon: '🦁' },
+  { id: 31, word: 'drive', label: 'Drive', phonetic: '/draɪv/', meaningVi: 'lái xe (ô tô)', icon: '🚗' },
+  { id: 32, word: 'ride', label: 'Ride', phonetic: '/raɪd/', meaningVi: 'lái xe (xe đạp, xe máy)', icon: '🚴' },
+
+  // 33 - 52
+  { id: 33, word: 'slide', label: 'Slide', phonetic: '/slaɪd/', meaningVi: 'trượt', icon: '🛝' },
+  { id: 34, word: 'cake', label: 'Cake', phonetic: '/keɪk/', meaningVi: 'cái bánh', icon: '🎂' },
+  { id: 35, word: 'grape', label: 'Grape', phonetic: '/ɡreɪp/', meaningVi: 'quả nho', icon: '🍇' },
+  { id: 36, word: 'table', label: 'Table', phonetic: '/ˈteɪbl/', meaningVi: 'cái bàn', icon: '🪑' },
+  { id: 37, word: 'eleven', label: 'Eleven', phonetic: '/ɪˈlevn/', meaningVi: 'số mười một', icon: '1️⃣1️⃣' },
+  { id: 38, word: 'twelve', label: '1 2', phonetic: '/twelv/', meaningVi: 'mười hai', icon: '1️⃣2️⃣', mastered: true, colorTheme: 'green' },
+  { id: 39, word: 'thirteen', label: '1 3', phonetic: '/θɜːˈtiːn/', meaningVi: 'mười ba', icon: '1️⃣3️⃣' },
+  { id: 40, word: 'fourteen', label: '1 4', phonetic: '/fɔːˈtiːn/', meaningVi: 'mười bốn', icon: '1️⃣4️⃣' },
+  { id: 41, word: 'fifteen', label: 'Fifteen', phonetic: '/ˌfɪfˈtiːn/', meaningVi: 'mười lăm', icon: '1️⃣5️⃣' },
+  { id: 42, word: 'brother', label: 'Brother', phonetic: '/ˈbrʌðə/', meaningVi: 'anh, em trai', icon: '👦' },
+  { id: 43, word: 'sister', label: 'Sister', phonetic: '/ˈsɪstə/', meaningVi: 'chị, em gái', icon: '👧' },
+  { id: 44, word: 'grandmother', label: 'Grandmother', phonetic: '/ˈɡrænmʌðə/', meaningVi: 'bà', icon: '👵' },
+  { id: 45, word: 'sixteen', label: 'Sixteen', phonetic: '/ˌsɪksˈtiːn/', meaningVi: 'số mười sáu', icon: '1️⃣6️⃣' },
+  { id: 46, word: 'seventeen', label: 'Seventeen', phonetic: '/ˌsevnˈtiːn/', meaningVi: 'mười bảy', icon: '1️⃣7️⃣' },
+  { id: 47, word: 'eighteen', label: 'Eighteen', phonetic: '/ˌeɪˈtiːn/', meaningVi: 'mười tám', icon: '1️⃣8️⃣' },
+  { id: 48, word: 'nineteen', label: 'Nineteen', phonetic: '/ˌnaɪnˈtiːn/', meaningVi: 'mười chín', icon: '1️⃣9️⃣' },
+  { id: 49, word: 'twenty', label: 'Twenty', phonetic: '/ˈtwenti/', meaningVi: 'hai mươi', icon: '2️⃣0️⃣' },
+  { id: 50, word: 'shirt', label: 'Shirt', phonetic: '/ʃɜːt/', meaningVi: 'áo sơ mi', icon: '👔' },
+  { id: 51, word: 'shoes', label: 'Shoes', phonetic: '/ʃuːz/', meaningVi: 'đôi giày', icon: '👟' },
+  { id: 52, word: 'shorts', label: 'Shorts', phonetic: '/ʃɔːts/', meaningVi: 'quần sóc', icon: '🩳' },
+
+  // 53 - 56
+  { id: 53, word: 'blanket', label: 'Blanket', phonetic: '/ˈblæŋkɪt/', meaningVi: 'cái chăn', icon: '🛌' },
+  { id: 54, word: 'near', label: 'Near', phonetic: '/nɪə/', meaningVi: 'gần', icon: '📍' },
+  { id: 55, word: 'teapot', label: 'Teapot', phonetic: '/ˈtiːpɒt/', meaningVi: 'ấm pha trà', icon: '🫖' },
+  { id: 56, word: 'tent', label: 'Tent', phonetic: '/tent/', meaningVi: 'lều, rạp', icon: '⛺' }
+];
